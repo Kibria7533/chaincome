@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Sidebar from "react-sidebar";
+
 import Avatar from 'react-avatar';
 import {
   Link,
@@ -68,18 +68,7 @@ class Header extends Component {
       </div>
     </div>
   </div>
-  {/* Navigation */}
-  <Sidebar
-        sidebar={<b>Sidebar content</b>}
-        open={this.state.sidebarOpen}
-        onSetOpen={this.onSetSidebarOpen}
-        styles={{ sidebar: { background: "white",marginTop:"120px" } }}
-        pullRight
-      >
-        {/* <button onClick={() => this.onSetSidebarOpen(true)}>
-          Open sidebar
-        </button> */}
-      </Sidebar>
+ 
   <nav className="navbar navbar-expand-lg navbar-dark bg-light top-nav">
     <div className="container">
       <Link className="navbar-brand" to="/">

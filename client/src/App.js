@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Switch,Route, BrowserRouter as Router} from 'react-router-dom'
+import {Switch,Route, Router} from 'react-router-dom'
 import history from './history';
 import { STATE_LOGIN, STATE_SIGNUP } from 'components/AuthForm';
 import { EmptyLayout, LayoutRoute, MainLayout } from 'components/Layout';

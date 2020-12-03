@@ -2,6 +2,7 @@ const express =require('express');
 const app=express();
 const bp=require('body-parser');
 const cor=require('cors');
+const path = require("path");
 const mongoose=require('mongoose');
 require('dotenv').config()
 

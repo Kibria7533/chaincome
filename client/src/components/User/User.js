@@ -4,8 +4,8 @@ import React from 'react';
 import {
   BrowserRouter,
   Switch,
-  Route,
-  Link
+  Route
+
 } from "react-router-dom";
 import Home from './Home';
 import Aboutus from './Aboutus';
@@ -19,16 +19,10 @@ import Blog from './Blog';
 import Blogpost from './Blogpost';
 import Contact from './Contact';
 import Logout from './Logout'
-import Adminregister from './Adminregister';
-import Adminlogin from './Adminlogin';
-import Dashboard from './Dashboard';
+
 import Singleproject from './Singleproject';
-import Managehome from './Managehome';
-import Manageabout from './Manageabout';
-import Manageservices from './Manageservices';
-import Manageprojects from './Manageprojects';
-import Managecontact from './Managecontact';
-import Managefaq from './Managefaq';
+
+
 import Profile from './Profile'
 import Earning from './Earning'
 import Invite from './Invite'
